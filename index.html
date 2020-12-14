@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+    <script src="./main.js"></script>
+</head>
+
+<body>
+    <main>
+        <div class="contact-title">
+            <h1>Say Hello</h1>
+            <h2>Sent Your E-Mail</h2>
+        </div>
+        
+        <div class="contact-form">
+            <form action="https://formspree.io/f/xeqprvld" method="post">
+                
+                <input type="text" class="form-control name" name="name" placeholder="Full Name"><br>
+                <input type="text" class="form-control email" name="email" placeholder="Your E-Mail"><br>
+                <input type="text" class="form-control subject" name="subject" placeholder="Subject"><br>
+                <textarea class="form-control message" name="message" placeholder="Message" id="" cols="30" rows="10"></textarea>
+                <br>
+                <div class="status">
+
+                </div>
+                <input type="submit" name="submit" class="form-control submit" value="SEND MESSAGE">
+            </form>
+        </div>
+
+
+    </main>
+
+</body>
+
+</html>
